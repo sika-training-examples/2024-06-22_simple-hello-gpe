@@ -2,4 +2,4 @@ apiVersion: v2
 name: simple-hello-gpe
 description: A simple example for GPE
 type: application
-version: 0.1.0
+version: 0.2.0

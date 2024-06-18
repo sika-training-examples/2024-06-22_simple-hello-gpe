@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: sikalabs/hello-world-server:gpe
+          image: {{ required ".Values.image is required" .Values.image }}
           ports:
             - containerPort: 8000
           resources:
